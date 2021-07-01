@@ -23,9 +23,9 @@ ROLE_3 = 842979862326542386
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='$', intents = intents)
-#token = os.environ['DISCORD_BOT_TOKEN']
+token = os.environ['DISCORD_BOT_TOKEN']
 #token = "ODE0NDE1NjIzMTgxMzAzODE4.YDdhpw.RlwZuykhj5jfI0krIljRACeTFgg"  #テスト用bot
-token = "ODQxODQwNDYxNTA5NDI3MjMx.YJsnBg.V3bLNxnIJx_umtOYh0ZiwOYbIKI" #本番環境
+#token = "ODQxODQwNDYxNTA5NDI3MjMx.YJsnBg.V3bLNxnIJx_umtOYh0ZiwOYbIKI" #本番環境
 #embed_sample = discord.Embed(title = "タイトル", description = "内容", url = "https://www.google.co.jp/")
 
 
